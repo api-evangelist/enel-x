@@ -1,0 +1,90 @@
+aid: enel-x
+name: Enel X
+description: >-
+  Enel X is the advanced-energy-services business line of the Enel Group, an
+  Italian multinational utility headquartered in Rome. Enel X delivers smart
+  energy products and services across electrification, e-mobility, demand
+  response, virtual power plants, and distributed energy resource (DER)
+  management for residential, commercial, industrial, public-sector, and
+  utility customers. Its principal offerings include the Enel X Way app and
+  network for electric-vehicle charging (the consolidated successor to
+  JuicePass and JuiceNet), the JuiceBox and JuicePedestal hardware lines, the
+  JuiceNet Utility Edition managed-charging platform, the DER.OS / DER
+  optimization software (now run as Calibrant Energy in North America after
+  Enel's 2023 divestiture of its North American demand-response business),
+  Enel X Flex flexibility management software, and VPP Connect, a set of API
+  endpoints that lets third-party DER operators — OEMs, automation providers,
+  and equipment manufacturers — aggregate EV chargers, batteries, HVAC
+  systems, heat pumps, and other controllable assets into Enel's virtual
+  power plant and earn revenue from demand-response and grid-services
+  programs via either the open Automated Demand Response (oADR) protocol or
+  a custom Enel API. Enel X exposes additional non-public surfaces — including
+  the emobility.enelx.com OAuth/charging endpoints used by the Enel X Way
+  mobile apps — but does not publish OpenAPI specifications, SDKs, or a
+  developer portal; VPP Connect documentation is delivered under partnership
+  agreement after a guided onboarding process. The official Enelx GitHub
+  organization has effectively no public engineering presence, and the
+  legacy JuiceNet public API has been deprecated as part of the platform
+  migration to Enel X Way.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Energy
+  - Smart Energy
+  - Distributed Energy Resources
+  - DER Management
+  - Virtual Power Plant
+  - Demand Response
+  - Flexibility
+  - Grid Services
+  - Electric Vehicle Charging
+  - EV Charging
+  - Electrification
+  - E-Mobility
+  - JuiceBox
+  - JuiceNet
+  - Enel X Way
+  - VPP Connect
+  - oADR
+  - OpenADR
+  - Battery Storage
+  - Heat Pumps
+  - HVAC
+  - Sustainable Mobility
+  - Utility
+  - Enel Group
+url: https://raw.githubusercontent.com/api-evangelist/enel-x/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.enelx.com
+  - type: Corporate
+    url: https://corporate.enelx.com
+  - type: EnelXWay
+    url: https://evcharging.enelx.com
+  - type: EMobility
+    url: https://www.mobility.enelx.com
+  - type: VPPConnect
+    url: https://www.enelx.com/au/en/demand-response/vpp-connect
+  - type: VPPConnectNorthAmerica
+    url: https://www.enelnorthamerica.com/solutions/energy-solutions/vpp-connect
+  - type: SupportHub
+    url: https://support-emobility.enelx.com
+  - type: ParentCompany
+    url: https://www.enel.com
+  - type: GitHub
+    url: https://github.com/Enelx
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/enelx
+  - type: Twitter
+    url: https://twitter.com/EnelXGlobal
+  - type: YouTube
+    url: https://www.youtube.com/c/EnelX
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
