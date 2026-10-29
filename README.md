@@ -1,4 +1,4 @@
-# enel-x
+# Enel X
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Enel X — smart energy and distributed energy resource (DER) management from the Enel Group, including Enel X Way EV charging (JuiceBox / JuiceNet / JuicePedestal), Enel X Flex, DER.OS, and the VPP Connect API (oADR + custom Enel API) for aggregating DERs into Enel's virtual power plant.
+Enel X is the advanced-energy-services business line of the Enel Group, an Italian multinational utility headquartered in Rome. Enel X delivers smart energy products and services across electrification, e-mobility, demand response, virtual power plants, and distributed energy resource (DER) management for residential, commercial, industrial, public-sector, and utility customers. Its principal offerings include the Enel X Way app and network for electric-vehicle charging (the consolidated successor to JuicePass and JuiceNet), the JuiceBox and JuicePedestal hardware lines, the JuiceNet Utility Edition managed-charging platform, the DER.OS / DER optimization software (now run as Calibrant Energy in North America after Enel's 2023 divestiture of its North American demand-response business), Enel X Flex flexibility management software, and VPP Connect, a set of API endpoints that lets third-party DER operators — OEMs, automation providers, and equipment manufacturers — aggregate EV chargers, batteries, HVAC systems, heat pumps, and other controllable assets into Enel's virtual power plant and earn revenue from demand-response and grid-services programs via either the open Automated Demand Response (oADR) protocol or a custom Enel API. Enel X exposes additional non-public surfaces — including the emobility.enelx.com OAuth/charging endpoints used by the Enel X Way mobile apps — but does not publish OpenAPI specifications, SDKs, or a developer portal; VPP Connect documentation is delivered under partnership agreement after a guided onboarding process. The official Enelx GitHub organization has effectively no public engineering presence, and the legacy JuiceNet public API has been deprecated as part of the platform migration to Enel X Way.
+
+**Areas:** Energy · Smart Energy · Distributed Energy Resources · DER Management · Virtual Power Plant · Demand Response · Flexibility · Grid Services · EV Charging · Electrification · E-Mobility · JuiceBox
+
+## Enel X on APIs.io
+
+Everything profiled for Enel X is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/enel-x/](https://apis.io/providers/enel-x/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Enel X Domain Security](https://apis.io/security/enel-x/enel-x-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.enelx.com)
+
+## API Evangelist rating
+
+**Kin Score 4.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/enel-x/](https://apis.io/providers/enel-x/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Enel X: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/enel-x/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
